@@ -1,0 +1,43 @@
+# NewOption Partners
+
+> Boutique commercial real estate brokerage serving Boulder County and the northwest Denver metro, Colorado. Two senior brokers handle every assignment personally — tenant and buyer representation, lease and sale marketing, investment sales, and urban infill land.
+
+NewOption Partners, LLC is a small, principal-led commercial real estate firm based on the Pearl Street Mall in Boulder, Colorado. Clients range from startups signing a first lease to Fortune 500 tenants and institutional investors. The firm is deliberately small: the broker who runs the first tour is the broker who negotiates the final terms, with no junior handoff.
+
+## At a glance
+
+- **Company:** NewOption Partners, LLC
+- **Type:** Commercial real estate brokerage (RealEstateAgent)
+- **Office:** 1007 Pearl Street, Suite 290, Boulder, CO 80302
+- **Coordinates:** 40.0175384, -105.2823651
+- **Phone:** 303-998-1100
+- **Email:** info@newoptionpartners.com
+- **Website:** https://www.newoptionpartners.com/
+- **Markets served:** Boulder County and the northwest Denver metro — Boulder, Longmont, Louisville, Lafayette, Superior, Broomfield, Westminster, Arvada, and Denver
+- **Asset types:** office, industrial, flex, retail, and urban infill land
+
+## Services
+
+- [Tenant & Buyer Representation](https://www.newoptionpartners.com/#services): Space searches, site selection, and negotiation for office, industrial, and flex users — lease or purchase.
+- [Leasing & Sale Marketing](https://www.newoptionpartners.com/#services): Positioning and marketing on behalf of owners who want space in front of the right tenants and buyers rather than simply listed.
+- [Investment Sales](https://www.newoptionpartners.com/#services): Owner-user and investment property sales, from a single building to a multi-building portfolio, with supporting underwriting.
+- [Land & Development](https://www.newoptionpartners.com/#services): Urban infill land sales across Boulder and Denver for student housing, multifamily, and mixed-use development.
+
+## People
+
+- [Paul Whiteside — Managing Broker](https://www.newoptionpartners.com/#team): Forty years in Front Range commercial real estate. Major tenant representation assignments include Intrado (300,000 SF), Bright Horizons, Kahuna Ventures, Ski Magazine, and PopSockets. Led the sale of Boulder's 19-building Flatiron Business Park portfolio to Crescent Real Estate. Now focused on urban infill land, including the sales underlying the Williams Village and Basemar Shopping Center redevelopments. BS, University of Colorado Boulder.
+- [Aaron Evans — Broker Associate](https://www.newoptionpartners.com/#team): With NewOption since 2002. Advises tech startups through established law firms on office space, and industrial users on warehouse requirements. Also an investor and asset manager for several office and multifamily properties. BA in Biochemistry, University of Colorado.
+
+## Available properties
+
+- [630 15th Avenue](https://www.newoptionpartners.com/#properties): Multi-tenant office, for lease.
+- [2790 Valmont Road, Boulder](https://www.newoptionpartners.com/#properties): Creative office, for lease.
+- [7225 Lowell Blvd](https://www.newoptionpartners.com/#properties): Retail and showroom, for sale.
+
+Availability changes. Contact the firm at 303-998-1100 for current status, square footage, and pricing.
+
+## Optional
+
+- [Full site content](https://www.newoptionpartners.com/llms-full.txt): Complete page text in one file.
+- [Contact](https://www.newoptionpartners.com/#contact): Enquiry form, phone, email, and office map.
+- [Sitemap](https://www.newoptionpartners.com/sitemap.xml)

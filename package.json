@@ -1,0 +1,12 @@
+{
+  "name": "newoption-partners",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NewOption Partners — boutique commercial real estate, Boulder CO. Static one-page site with a Vercel serverless contact endpoint.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
