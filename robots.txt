@@ -1,5 +1,5 @@
 # robots.txt — newoptionpartners.com
-# NewOption Partners, LLC — boutique commercial real estate, Boulder, Colorado
+# NewOption Partners, LLC — independent commercial real estate, Boulder, Colorado
 
 User-agent: *
 Allow: /

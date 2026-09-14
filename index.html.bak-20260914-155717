@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>NewOption Partners | Boutique Commercial Real Estate — Boulder, CO</title>
+<meta name="description" content="Boutique commercial real estate brokerage serving Boulder County and the northwest Denver metro. Tenant and buyer representation, leasing, investment sales, and infill land — handled personally by two senior brokers.">
+<link rel="canonical" href="https://www.newoptionpartners.com/">
+<meta name="theme-color" content="#0E1D26">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NewOption Partners">
+<meta property="og:url" content="https://www.newoptionpartners.com/">
+<meta property="og:title" content="NewOption Partners | Boutique Commercial Real Estate — Boulder, CO">
+<meta property="og:description" content="Tenant and buyer representation, leasing, investment sales, and infill land across Boulder County and the northwest Denver metro. Two senior brokers, no handoffs.">
+<meta property="og:image" content="https://www.newoptionpartners.com/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="NewOption Partners — boutique commercial real estate, Boulder County and northwest Denver metro">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NewOption Partners | Boutique Commercial Real Estate — Boulder, CO">
+<meta name="twitter:description" content="Tenant and buyer representation, leasing, investment sales, and infill land across Boulder County and the northwest Denver metro.">
+<meta name="twitter:image" content="https://www.newoptionpartners.com/og-cover.jpg">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-1.webp" fetchpriority="high">
+
+<style>
+:root{
+  --ink:#0E1D26;
+  --ink-2:#16303F;
+  --slate:#24506C;
+  --brass:#B08240;
+  --brass-lo:#C9A06A;
+  --brass-hi:#E2C08A;
+  --paper:#F7F6F3;
+  --paper-2:#EFEDE8;
+  --line:#E1DDD5;
+  --muted:#5F6E77;
+  --maxw:1240px;
+  --pad:clamp(20px,5vw,64px);
+  --r:2px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --hdr:84px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit}
+h1,h2,h3,h4{font-family:Archivo,Inter,sans-serif;font-weight:700;letter-spacing:-.028em;line-height:1.06;margin:0}
+p{margin:0 0 1em}
+section[id]{scroll-margin-top:calc(var(--hdr) + 8px)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--pad)}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* visible focus everywhere */
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:1px}
+.on-ink :focus-visible,.hero :focus-visible,.contact-band :focus-visible,.svc-band :focus-visible,.ftr :focus-visible,.mnav :focus-visible{outline-color:var(--brass-hi)}
+.skip{
+  position:fixed;top:8px;left:8px;z-index:200;background:var(--ink);color:#fff;
+  padding:12px 18px;border-radius:var(--r);font-size:14px;font-weight:600;text-decoration:none;
+  transform:translateY(-160%);transition:transform .2s var(--ease);
+}
+.skip:focus{transform:none}
+
+.eyebrow{
+  font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--brass);display:flex;align-items:center;gap:12px;margin:0 0 18px;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--brass);opacity:.6;flex:none}
+.eyebrow.on-dark{color:var(--brass-hi)}
+.eyebrow.on-dark::before{background:var(--brass-hi)}
+
+/* ---------- image skeletons ---------- */
+.ph{position:relative;overflow:hidden;background:var(--sk,#DDD9D2)}
+.ph::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.42) 50%,transparent 80%);
+  transform:translateX(-100%);animation:shimmer 1.7s var(--ease) infinite;
+}
+.ph.dark::after{background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.14) 50%,transparent 80%)}
+.ph.is-loaded::after{animation:none;opacity:0;transition:opacity .4s var(--ease)}
+.ph>img{opacity:0;transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.ph.is-loaded>img{opacity:1}
+@keyframes shimmer{to{transform:translateX(100%)}}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 26px;
+  border:1px solid transparent;border-radius:var(--r);font-size:14px;font-weight:600;letter-spacing:.01em;
+  text-decoration:none;cursor:pointer;transition:.28s var(--ease);white-space:nowrap;
+}
+.btn-primary{background:var(--brass);color:#fff;border-color:var(--brass)}
+.btn-primary:hover{background:#9A6E32;border-color:#9A6E32;transform:translateY(-1px)}
+.btn-primary[disabled]{opacity:.6;cursor:progress;transform:none}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.btn-dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn-dark:hover{background:var(--ink-2);border-color:var(--ink-2);transform:translateY(-1px)}
+.btn svg{width:14px;height:14px;flex:none}
+.spin{width:14px;height:14px;border:1.6px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite;flex:none}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+/* ---------- header ---------- */
+.hdr{
+  position:fixed;inset:0 0 auto 0;z-index:60;
+  transition:background .35s var(--ease),border-color .35s var(--ease);
+  border-bottom:1px solid transparent;
+}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--hdr);
+  max-width:var(--maxw);margin:0 auto;padding-inline:var(--pad)}
+.brand{display:flex;align-items:center;text-decoration:none;flex:none;padding:10px 0}
+.brand img{height:24px;width:auto;transition:opacity .3s var(--ease)}
+.brand .lg-light{position:absolute}
+.brand-wrap{position:relative;display:flex;align-items:center;height:26px}
+.nav{display:flex;align-items:center;gap:34px}
+.nav a{
+  font-size:13.5px;font-weight:500;text-decoration:none;color:#fff;opacity:.86;white-space:nowrap;
+  transition:.25s var(--ease);position:relative;padding:4px 0;
+}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:currentColor;transition:right .3s var(--ease)}
+.nav a:hover,.nav a.active{opacity:1}
+.nav a:hover::after,.nav a.active::after{right:0}
+.nav a.active{color:var(--brass-hi)}
+.hdr.solid .nav a.active{color:var(--brass)}
+.hdr-cta{display:flex;align-items:center;gap:18px}
+.hdr-phone{font-size:13.5px;font-weight:600;text-decoration:none;color:#fff;letter-spacing:.01em;padding:11px 2px;white-space:nowrap}
+.hdr.solid{background:rgba(247,246,243,.94);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+.hdr.solid .nav a,.hdr.solid .hdr-phone{color:var(--ink)}
+.hdr.solid .lg-light{opacity:0}
+.hdr:not(.solid) .lg-dark{opacity:0}
+.hdr.solid .btn-ghost{color:var(--ink);border-color:rgba(14,29,38,.28)}
+.hdr.solid .btn-ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.prog{position:absolute;left:0;bottom:-1px;height:2px;width:100%;transform:scaleX(0);transform-origin:0 50%;background:var(--brass);opacity:0;transition:opacity .3s var(--ease)}
+.hdr.solid .prog{opacity:1}
+.burger{display:none;background:none;border:0;padding:0;cursor:pointer;position:relative;width:42px;height:42px;margin-right:-9px}
+.burger span{
+  position:absolute;top:50%;left:10px;width:22px;height:1.5px;margin-top:-.75px;
+  background:#fff;border-radius:2px;transition:transform .34s var(--ease),background-color .35s var(--ease);
+}
+.burger span:nth-child(1){transform:translateY(-3.5px)}
+.burger span:nth-child(2){transform:translateY(3.5px)}
+.burger[aria-expanded="true"] span:nth-child(1){transform:rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){transform:rotate(-45deg)}
+.hdr.solid .burger span{background:var(--ink)}
+
+/* ---------- mobile nav ---------- */
+.mnav{
+  position:fixed;inset:0;background:var(--ink);z-index:55;display:flex;flex-direction:column;
+  justify-content:center;padding:0 var(--pad);gap:6px;
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity .32s var(--ease),visibility .32s var(--ease);
+}
+.mnav.open{opacity:1;visibility:visible;pointer-events:auto}
+.mnav a{font-family:Archivo;font-size:clamp(28px,8vw,44px);font-weight:700;color:#fff;text-decoration:none;padding:10px 0;letter-spacing:-.03em}
+.mnav>a,.mnav>.m-contact{opacity:0;transform:translateY(12px);transition:opacity .42s var(--ease),transform .42s var(--ease)}
+.mnav.open>a,.mnav.open>.m-contact{opacity:1;transform:none}
+.mnav.open>a:nth-of-type(1){transition-delay:.08s}
+.mnav.open>a:nth-of-type(2){transition-delay:.13s}
+.mnav.open>a:nth-of-type(3){transition-delay:.18s}
+.mnav.open>a:nth-of-type(4){transition-delay:.23s}
+.mnav.open>a:nth-of-type(5){transition-delay:.28s}
+.mnav.open>.m-contact{transition-delay:.34s}
+.m-contact{margin-top:32px;padding-top:28px;border-top:1px solid rgba(255,255,255,.15)}
+.m-contact a{font-family:Inter;font-size:16px;font-weight:500;display:block;padding:8px 0;color:rgba(255,255,255,.72);letter-spacing:0}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;overflow:hidden;background:var(--ink);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  min-height:min(100svh,920px);
+}
+.slides{position:absolute;inset:0}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.15s var(--ease)}
+.slide.on{opacity:1;z-index:1}
+.slide,.slide .ph{width:100%;height:100%}
+.slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);transition:transform 8s linear,opacity .7s var(--ease)}
+.slide.on .ph.is-loaded img{transform:scale(1)}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:2;
+  background:
+    linear-gradient(to top,rgba(6,16,22,.88) 0%,rgba(6,16,22,.45) 42%,rgba(6,16,22,.12) 70%,rgba(6,16,22,.5) 100%),
+    linear-gradient(to right,rgba(6,16,22,.5),rgba(6,16,22,0) 62%);
+}
+.hero-in{
+  position:relative;z-index:3;width:100%;max-width:var(--maxw);margin:0 auto;
+  padding:clamp(94px,13vh,124px) var(--pad) clamp(32px,6vh,76px);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  text-shadow:0 2px 30px rgba(6,16,22,.5);
+}
+.hero h1{color:#fff;font-size:max(30px,min(clamp(33px,calc(19px + 5vw),76px),11vh));max-width:17ch;margin:0 0 22px;letter-spacing:-.035em}
+.hero h1 em{font-style:normal;color:var(--brass-lo)}
+.hero-sub{color:rgba(255,255,255,.82);font-size:clamp(16px,1.55vw,19px);max-width:52ch;margin:0 0 34px;line-height:1.6}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero-foot{
+  position:relative;z-index:3;margin-top:clamp(36px,6vh,64px);
+  display:flex;align-items:flex-end;justify-content:space-between;gap:24px;
+  border-top:1px solid rgba(255,255,255,.2);padding-top:20px;
+}
+.hero-count{font-family:Archivo;font-size:13px;color:rgba(255,255,255,.75);letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.hero-count b{color:#fff;font-weight:600}
+.dots{display:flex;gap:8px;align-items:center}
+.dot{
+  width:34px;height:3px;background:rgba(255,255,255,.26);border:0;padding:0;cursor:pointer;
+  position:relative;border-radius:3px;overflow:hidden;
+  transition:width .4s var(--ease),background-color .4s var(--ease);
+}
+.dot:hover{background:rgba(255,255,255,.45)}
+.dot::after{content:"";position:absolute;inset:-15px -5px;border-radius:0}
+.dot.on{width:58px;background:rgba(255,255,255,.34)}
+.dot i{position:absolute;inset:0 100% 0 0;background:var(--brass-hi);border-radius:3px;transition:right .3s linear}
+.dot.on i{right:0;transition:right 6s linear}
+.arrows{display:flex;gap:8px}
+.arw{
+  width:44px;height:44px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.06);
+  border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:.28s var(--ease);
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+}
+.arw:hover{background:#fff;border-color:#fff}
+.arw svg{width:15px;height:15px;stroke:#fff;transition:stroke .28s var(--ease)}
+.arw:hover svg{stroke:var(--ink)}
+
+/* ---------- sections ---------- */
+.sec{padding:clamp(72px,10vw,136px) 0}
+h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
+.lede{font-size:clamp(16px,1.4vw,18.5px);color:var(--muted);line-height:1.72}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,6vw,88px);align-items:start}
+.about-copy p{max-width:56ch}
+.about-media{position:relative}
+.about-media .ph{aspect-ratio:3/2;border-radius:var(--r)}
+.about-media img{width:100%;height:100%;object-fit:cover}
+.about-media .badge{position:absolute;left:-1px;bottom:-1px;background:var(--ink);color:#fff;padding:22px 26px;max-width:78%;z-index:2}
+.about-media .badge b{display:block;font-family:Archivo;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-lo);margin-bottom:6px;font-weight:600}
+.about-media .badge span{font-size:14.5px;line-height:1.5;color:rgba(255,255,255,.86)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:clamp(48px,6vw,72px);border-top:1px solid var(--line)}
+.stat{padding:32px 28px 4px;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat b{display:block;font-family:Archivo;font-weight:700;font-size:clamp(34px,4.4vw,52px);letter-spacing:-.035em;line-height:1;color:var(--ink)}
+.stat span{display:block;margin-top:12px;font-size:13.5px;color:var(--muted);line-height:1.5;max-width:24ch}
+
+/* services */
+.svc-band{background:var(--ink);color:#fff}
+.svc-band h2.big{color:#fff}
+.svc-band .lede{color:rgba(255,255,255,.68)}
+.svc-head{display:grid;grid-template-columns:1fr .8fr;gap:clamp(28px,5vw,72px);align-items:end;margin-bottom:clamp(44px,6vw,72px)}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.14)}
+.svc{background:var(--ink);padding:34px 28px 38px;transition:background .35s var(--ease)}
+.svc:hover{background:var(--ink-2)}
+.svc .num{font-family:Archivo;font-size:12px;letter-spacing:.14em;color:var(--brass-lo);font-weight:600;display:block;margin-bottom:26px}
+.svc h3{font-size:19px;letter-spacing:-.02em;margin-bottom:12px;line-height:1.25}
+.svc p{font-size:14.5px;color:rgba(255,255,255,.66);line-height:1.65;margin:0}
+
+/* properties */
+.prop-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px 24px;flex-wrap:wrap;margin-bottom:38px}
+.prop-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.rail{
+  display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-inline:var(--pad);margin-inline:calc(var(--pad)*-1);
+  scrollbar-width:none;-ms-overflow-style:none;scroll-padding-left:var(--pad);
+}
+.rail::-webkit-scrollbar{display:none}
+.card{flex:0 0 clamp(280px,31%,388px);scroll-snap-align:start;text-decoration:none;color:inherit;display:block}
+.card .ph{aspect-ratio:4/3;border-radius:var(--r)}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease),opacity .7s var(--ease)}
+.card:hover .ph.is-loaded img{transform:scale(1.05)}
+.card-meta{padding-top:18px;display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.card h3{font-size:19px;letter-spacing:-.02em;margin-bottom:6px;display:flex;align-items:center;gap:9px}
+.card h3 svg{width:14px;height:14px;opacity:0;transform:translateX(-5px);transition:.3s var(--ease);stroke:var(--brass);flex:none}
+.card:hover h3 svg{opacity:1;transform:none}
+.card .type{font-size:13px;color:var(--muted);margin:0}
+.tag{font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:5px 10px;border:1px solid var(--line);color:var(--muted);flex:none;border-radius:var(--r)}
+.rail-nav{display:flex;gap:8px}
+.arw-lt{width:42px;height:42px;border:1px solid var(--line);background:transparent;border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:.28s var(--ease)}
+.arw-lt:hover{background:var(--ink);border-color:var(--ink)}
+.arw-lt svg{width:14px;height:14px;stroke:var(--ink);transition:stroke .28s var(--ease)}
+.arw-lt:hover svg{stroke:#fff}
+.arw-lt:disabled{opacity:.3;cursor:default}
+.arw-lt:disabled:hover{background:transparent;border-color:var(--line)}
+.arw-lt:disabled:hover svg{stroke:var(--ink)}
+.rail-bar{display:none;height:2px;background:var(--line);margin-top:26px;position:relative;border-radius:2px}
+.rail-bar i{position:absolute;inset:0 auto 0 0;width:30%;background:var(--brass);border-radius:2px;transition:transform .12s linear}
+
+/* team */
+.team-band{background:var(--paper-2)}
+.team-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4.5vw,64px)}
+.person{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.person .ph{aspect-ratio:4/5;max-height:520px}
+.person img{width:100%;height:100%;object-fit:cover;object-position:center 18%;filter:saturate(.94)}
+.person-body{padding:clamp(24px,3vw,34px)}
+.person h3{font-size:clamp(22px,2.4vw,27px);letter-spacing:-.025em}
+.person .role{font-size:11.5px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);margin:10px 0 18px}
+.person p{font-size:15px;color:var(--muted);line-height:1.7;margin:0 0 .95em}
+.bio-more{display:none}
+.bio-more.open{display:block;animation:fade .4s var(--ease)}
+@keyframes fade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.bio-toggle{background:none;border:0;padding:9px 0 8px;margin-top:2px;cursor:pointer;font-size:13px;font-weight:600;color:var(--ink);display:inline-flex;align-items:center;gap:8px;letter-spacing:.02em;transition:.25s var(--ease)}
+.bio-toggle span{border-bottom:1px solid var(--brass);padding-bottom:3px}
+.bio-toggle:hover{color:var(--brass)}
+.bio-toggle svg{width:11px;height:11px;transition:transform .3s var(--ease)}
+.bio-toggle[aria-expanded="true"] svg{transform:rotate(180deg)}
+.person-links{display:flex;flex-wrap:wrap;gap:4px 20px;margin-top:20px;padding-top:12px;border-top:1px solid var(--line)}
+.person-links a{font-size:13.5px;text-decoration:none;color:var(--muted);transition:color .25s var(--ease);display:inline-flex;align-items:center;gap:7px;padding:10px 0}
+.person-links a:hover{color:var(--ink)}
+.person-links svg{width:13px;height:13px;stroke:currentColor;flex:none}
+
+/* contact */
+.contact-band{background:var(--ink);color:#fff}
+.contact-band h2.big{color:#fff}
+.contact-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(36px,5.5vw,80px);align-items:start}
+.field{margin-bottom:20px}
+.field label{display:block;font-size:11.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:9px}
+.field input,.field textarea{
+  width:100%;background:transparent;border:0;border-bottom:1px solid rgba(255,255,255,.25);
+  padding:11px 0;color:#fff;font:inherit;font-size:15.5px;transition:border-color .3s var(--ease);border-radius:0;
+}
+.field input:focus,.field textarea:focus{outline:none;border-bottom-color:var(--brass-hi)}
+.field input:focus-visible,.field textarea:focus-visible{outline:none}
+.field input[aria-invalid="true"],.field textarea[aria-invalid="true"]{border-bottom-color:#E08A6B}
+.field input::placeholder,.field textarea::placeholder{color:rgba(255,255,255,.3)}
+.field textarea{resize:vertical;min-height:96px;line-height:1.6}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#cform{position:relative}
+.hp{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+.form-note{font-size:12.5px;color:rgba(255,255,255,.42);margin:18px 0 0;line-height:1.6}
+.form-note a{color:rgba(255,255,255,.66);padding:8px 1px}
+.form-msg{display:none;margin-top:20px;padding:14px 16px;border-left:2px solid var(--brass);background:rgba(255,255,255,.04);font-size:14.5px;line-height:1.6;border-radius:0 var(--r) var(--r) 0}
+.form-msg.show{display:block;animation:fade .35s var(--ease)}
+.form-msg.err{border-left-color:#E08A6B;color:#F0BCA8}
+.sent{display:none;padding:38px 0}
+.sent.show{display:block;animation:fade .45s var(--ease)}
+.sent .tick{width:46px;height:46px;border-radius:50%;border:1px solid var(--brass);display:grid;place-items:center;margin-bottom:22px}
+.sent .tick svg{width:20px;height:20px;stroke:var(--brass-hi)}
+.sent h3{font-size:26px;color:#fff;margin-bottom:12px}
+.sent p{color:rgba(255,255,255,.66);max-width:40ch;font-size:15.5px}
+.info{display:grid;border-top:1px solid rgba(255,255,255,.16);margin-bottom:30px}
+.info a{
+  display:grid;grid-template-columns:120px 1fr;gap:20px;padding:20px 0;
+  border-bottom:1px solid rgba(255,255,255,.16);text-decoration:none;color:#fff;
+  transition:padding-left .3s var(--ease);align-items:baseline;
+}
+.info a:hover{padding-left:8px}
+.info .k{font-size:11.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.5)}
+.info .v{font-size:16px;line-height:1.5}
+.info .v small{display:block;font-size:13.5px;color:rgba(255,255,255,.55);margin-top:3px}
+
+/* map */
+.map{position:relative;aspect-ratio:16/10;border:1px solid rgba(255,255,255,.16);overflow:hidden;background:var(--ink-2);border-radius:var(--r)}
+.map-canvas{position:absolute;inset:0;filter:saturate(.88) contrast(1.02)}
+.map-canvas .H_ib_body{font-family:Inter,sans-serif}
+.map-fb{
+  position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:26px;gap:5px;background:linear-gradient(135deg,#1B3C4E,#0E1D26);
+  transition:opacity .5s var(--ease);
+}
+.map-fb.gone{opacity:0;pointer-events:none}
+.map-fb .grid{position:absolute;inset:0;opacity:.16;
+  background-image:linear-gradient(rgba(255,255,255,.4) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.4) 1px,transparent 1px);
+  background-size:44px 44px;-webkit-mask-image:radial-gradient(circle at 50% 45%,#000,transparent 72%);mask-image:radial-gradient(circle at 50% 45%,#000,transparent 72%)}
+.map-fb .pin{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%)}
+.map-fb .pin span{display:block;width:13px;height:13px;border-radius:50%;background:var(--brass);box-shadow:0 0 0 6px rgba(176,130,64,.28),0 0 0 14px rgba(176,130,64,.13)}
+.map-fb b{font-family:Archivo;font-size:16px;position:relative}
+.map-fb em{font-style:normal;font-size:13.5px;color:rgba(255,255,255,.6);position:relative}
+.map-fb a{color:var(--brass-hi);font-size:13.5px;text-decoration:none;margin-top:4px;font-weight:600;padding:9px 0;align-self:flex-start;position:relative}
+.map-cap{font-size:12.5px;color:rgba(255,255,255,.4);margin:12px 0 0}
+.map-cap a{color:rgba(255,255,255,.6);padding:8px 1px}
+
+/* footer */
+.ftr{background:#0A161D;color:rgba(255,255,255,.55);padding:52px 0 44px;font-size:13.5px}
+.ftr-in{display:flex;flex-wrap:wrap;gap:28px;align-items:center;justify-content:space-between}
+.ftr img{height:19px;width:auto;opacity:.5}
+.ftr-nav{display:flex;gap:2px 26px;flex-wrap:wrap}
+.ftr-nav a{text-decoration:none;transition:color .25s var(--ease);padding:9px 0}
+.ftr-nav a:hover{color:#fff}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.rv.in{opacity:1;transform:none}
+
+@media (max-width:1100px){ .nav{gap:24px} .hdr-cta{gap:14px} }
+@media (max-width:1024px){
+  .svc-grid{grid-template-columns:1fr 1fr}
+  .about-grid{grid-template-columns:1fr;gap:40px}
+  .about-media{order:-1}
+  .contact-grid{grid-template-columns:1fr}
+  .svc-head{grid-template-columns:1fr;align-items:start}
+}
+@media (max-width:900px){
+  :root{--hdr:72px}
+  .nav,.hdr-cta .btn{display:none}
+  .burger{display:block}
+  .hero-foot{flex-direction:column;align-items:flex-start;gap:18px}
+  .card{flex-basis:min(78%,340px)}
+  .hero h1{margin-bottom:26px}
+  .about-media .badge{position:static;max-width:none;padding:24px;margin-top:-1px}
+  .about-media .ph{aspect-ratio:16/10}
+}
+@media (max-width:700px){
+  .rail-nav{display:none}
+  .prop-head{align-items:flex-start;flex-direction:column}
+  .rail-bar{display:block}
+}
+@media (max-width:680px){
+  .team-grid{grid-template-columns:1fr}
+  .person .ph{max-height:420px}
+}
+@media (max-width:620px){
+  .stats{grid-template-columns:1fr;border-top:0}
+  .stat{border-right:0;border-top:1px solid var(--line);padding:24px 0 6px}
+  .stat span{max-width:34ch}
+}
+@media (max-width:560px){
+  .svc-grid{grid-template-columns:1fr}
+  .svc{padding:28px 24px 30px}
+  .svc .num{margin-bottom:18px}
+  .frow{grid-template-columns:1fr;gap:0}
+  .info a{grid-template-columns:1fr;gap:6px}
+  .card h3{font-size:17px}
+  .person .ph{max-height:380px}
+  .btn{padding:13px 22px}
+  .hero-actions .btn{flex:1 1 auto}
+  .map{aspect-ratio:4/3}
+}
+@media (max-width:420px){ .hdr-phone{display:none} .hdr-in{gap:12px} }
+@media (max-width:380px){ .hero-actions{flex-direction:column;align-items:stretch} .dot{width:26px} }
+@media (max-height:600px) and (min-width:560px){
+  :root{--hdr:64px}
+  .hero-in{padding-top:84px}
+  .hero-foot{margin-top:22px;padding-top:14px}
+  .hero-sub{margin-bottom:20px;font-size:16px}
+  .hero h1{margin-bottom:14px}
+  .eyebrow{margin-bottom:12px}
+}
+@media (max-height:440px) and (min-width:560px){
+  .hero-foot{display:none}
+  .hero-in{padding-top:72px;padding-bottom:26px}
+  .hero h1{max-width:32ch;font-size:max(28px,min(clamp(33px,calc(19px + 5vw),76px),10vh))}
+  .hero-sub{max-width:62ch;margin-bottom:18px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .slide img{transform:none}
+  .ph::after{display:none}
+}
+</style>
+
+<noscript><style>
+  .ph>img{opacity:1!important}
+  .ph::after{display:none}
+  .rv{opacity:1;transform:none}
+  .slide{position:relative;opacity:1}
+  .slide:not(:first-child){display:none}
+  .bio-more{display:block}
+  .bio-toggle{display:none}
+</style></noscript>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://www.newoptionpartners.com/#organization",
+      "name": "NewOption Partners",
+      "legalName": "NewOption Partners, LLC",
+      "url": "https://www.newoptionpartners.com/",
+      "description": "Boutique commercial real estate brokerage serving Boulder County and the northwest Denver metro. Tenant and buyer representation, lease and sale marketing, investment sales, and urban infill land.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.newoptionpartners.com/img/logo-dark.png",
+        "width": 802,
+        "height": 134
+      },
+      "image": "https://www.newoptionpartners.com/og-cover.jpg",
+      "telephone": "+1-303-998-1100",
+      "email": "info@newoptionpartners.com",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1007 Pearl Street, Suite 290",
+        "addressLocality": "Boulder",
+        "addressRegion": "CO",
+        "postalCode": "80302",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.0175384,
+        "longitude": -105.2823651
+      },
+      "hasMap": "https://maps.here.com/?map=40.0175384,-105.2823651,17",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Boulder County, Colorado" },
+        { "@type": "City", "name": "Boulder, Colorado" },
+        { "@type": "City", "name": "Longmont, Colorado" },
+        { "@type": "City", "name": "Westminster, Colorado" },
+        { "@type": "City", "name": "Denver, Colorado" }
+      ],
+      "knowsAbout": [
+        "Tenant representation",
+        "Commercial leasing",
+        "Investment sales",
+        "Owner-user acquisitions",
+        "Urban infill land",
+        "Office space",
+        "Industrial and flex space"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "telephone": "+1-303-998-1100",
+        "email": "info@newoptionpartners.com",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "employee": [
+        { "@id": "https://www.newoptionpartners.com/#paul-whiteside" },
+        { "@id": "https://www.newoptionpartners.com/#aaron-evans" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial real estate services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tenant & Buyer Representation", "description": "Space searches, site selection, and negotiation for office, industrial, and flex users." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Leasing & Sale Marketing", "description": "Positioning and marketing for owners leasing or selling commercial space." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Investment Sales", "description": "Owner-user and investment property sales, from single buildings to multi-building portfolios." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Land & Development", "description": "Urban infill land sales for student housing, multifamily, and mixed-use development in Boulder and Denver." } }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.newoptionpartners.com/#paul-whiteside",
+      "name": "Paul Whiteside",
+      "jobTitle": "Managing Broker",
+      "image": "https://www.newoptionpartners.com/img/team-paul.webp",
+      "worksFor": { "@id": "https://www.newoptionpartners.com/#organization" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Colorado Boulder" },
+      "knowsAbout": ["Tenant representation", "Office building and portfolio sales", "Urban infill land", "Student housing development"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.newoptionpartners.com/#aaron-evans",
+      "name": "Aaron Evans",
+      "jobTitle": "Broker Associate",
+      "image": "https://www.newoptionpartners.com/img/team-aaron.webp",
+      "worksFor": { "@id": "https://www.newoptionpartners.com/#organization" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Colorado" },
+      "knowsAbout": ["Tenant representation", "Office leasing", "Industrial and warehouse space", "Asset management"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.newoptionpartners.com/#website",
+      "url": "https://www.newoptionpartners.com/",
+      "name": "NewOption Partners",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://www.newoptionpartners.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.newoptionpartners.com/#webpage",
+      "url": "https://www.newoptionpartners.com/",
+      "name": "NewOption Partners | Boutique Commercial Real Estate — Boulder, CO",
+      "description": "Boutique commercial real estate brokerage serving Boulder County and the northwest Denver metro.",
+      "isPartOf": { "@id": "https://www.newoptionpartners.com/#website" },
+      "about": { "@id": "https://www.newoptionpartners.com/#organization" },
+      "primaryImageOfPage": "https://www.newoptionpartners.com/og-cover.jpg",
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hdr" id="hdr">
+  <div class="hdr-in">
+    <a class="brand" href="#top" aria-label="NewOption Partners — back to top">
+      <span class="brand-wrap">
+        <img class="lg-light" src="img/logo-light.png" alt="NewOption Partners" width="802" height="134">
+        <img class="lg-dark" src="img/logo-dark.png" alt="" width="802" height="134">
+      </span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">What We Do</a>
+      <a href="#properties">Properties</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hdr-cta">
+      <a class="hdr-phone" href="tel:+13039981100">303-998-1100</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="prog" id="prog"></div>
+</header>
+
+<nav class="mnav" id="mnav" aria-label="Mobile">
+  <a href="#about">About</a>
+  <a href="#services">What We Do</a>
+  <a href="#properties">Properties</a>
+  <a href="#team">Team</a>
+  <a href="#contact">Contact</a>
+  <div class="m-contact">
+    <a href="tel:+13039981100">303-998-1100</a>
+    <a href="mailto:info@newoptionpartners.com">info@newoptionpartners.com</a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top" aria-label="Introduction">
+  <div class="slides" id="slides">
+    <div class="slide on"><div class="ph dark" style="--sk:#726766"><img src="img/hero-1.webp" width="1400" height="787" alt="Open loft office with lounge seating and large windows" fetchpriority="high"></div></div>
+    <div class="slide"><div class="ph dark" style="--sk:#A7A6A1"><img src="img/hero-2.webp" width="939" height="528" alt="Bright modern office lobby" loading="lazy"></div></div>
+    <div class="slide"><div class="ph dark" style="--sk:#908B83"><img src="img/hero-3.webp" width="1800" height="1012" alt="Open floor plan office with glass conference rooms" loading="lazy"></div></div>
+    <div class="slide"><div class="ph dark" style="--sk:#938A86"><img src="img/hero-4.webp" width="1400" height="787" alt="Boardroom with wood ceiling and mountain views" loading="lazy"></div></div>
+    <div class="slide"><div class="ph dark" style="--sk:#7F817C"><img src="img/hero-5.webp" width="1068" height="601" alt="Daylit atrium common area" loading="lazy"></div></div>
+    <div class="slide"><div class="ph dark" style="--sk:#968674"><img src="img/hero-6.webp" width="1200" height="675" alt="Executive office with exposed brick and city view" loading="lazy"></div></div>
+  </div>
+
+  <div class="hero-in">
+    <div>
+      <p class="eyebrow on-dark" style="margin-bottom:22px">Boulder County &middot; Northwest Denver Metro</p>
+      <h1>Boutique commercial real estate, <em>handled personally.</em></h1>
+      <p class="hero-sub">Two senior brokers, no handoffs. The person who walks your first tour is the person who negotiates your final terms.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Start a conversation
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="#properties">View available space</a>
+      </div>
+    </div>
+
+    <div class="hero-foot">
+      <div class="hero-count"><b id="cnum">01</b> &nbsp;/&nbsp; 06</div>
+      <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+        <div class="dots" id="dots" role="tablist" aria-label="Choose image"></div>
+        <div class="arrows">
+          <button class="arw" id="prev" aria-label="Previous image">
+            <svg viewBox="0 0 16 16" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M14 8H2M7 3L2 8l5 5"/></svg>
+          </button>
+          <button class="arw" id="next" aria-label="Next image">
+            <svg viewBox="0 0 16 16" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="sec" id="about" aria-labelledby="about-h">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-copy rv">
+        <p class="eyebrow">Who we are</p>
+        <h2 class="big" id="about-h">High-touch brokerage, without the layers.</h2>
+        <p class="lede" style="margin-top:26px">NewOption Partners is a boutique commercial real estate firm serving Boulder County and the northwest Denver metro. We are small on purpose. Every assignment gets senior-level attention from start to finish &mdash; no junior handoff, no account team you never meet.</p>
+        <p class="lede">Our clients run from startups signing their first lease to Fortune 500 tenants and institutional investors. We put real time into each project and build deal terms around what your organization actually needs, on your timeline.</p>
+      </div>
+      <div class="about-media rv">
+        <div class="ph" style="--sk:#989286"><img src="img/about.webp" width="703" height="468" alt="Team working in a bright modern office" loading="lazy"></div>
+        <div class="badge">
+          <b>Local since day one</b>
+          <span>Four decades of Front Range relationships &mdash; tenants, landlords, landowners, developers, lenders.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats rv">
+      <div class="stat"><b>40+</b><span>Years of Front Range commercial market experience</span></div>
+      <div class="stat"><b>300K</b><span>Square feet in a single tenant representation assignment</span></div>
+      <div class="stat"><b>19</b><span>Buildings in the Flatiron Business Park portfolio sale</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="sec svc-band" id="services" aria-labelledby="svc-h">
+  <div class="wrap">
+    <div class="svc-head rv">
+      <div>
+        <p class="eyebrow on-dark">What we do</p>
+        <h2 class="big" id="svc-h">Four things, done properly.</h2>
+      </div>
+      <p class="lede" style="margin:0">Tenant and buyer representation, lease and sale marketing, investment sales, and infill land. We bring the whole of our experience to bear on each one.</p>
+    </div>
+
+    <div class="svc-grid rv">
+      <article class="svc">
+        <span class="num">01</span>
+        <h3>Tenant &amp; Buyer Representation</h3>
+        <p>Space searches, site selection, and negotiation for office, industrial, and flex users. We run the process so you can keep running your business.</p>
+      </article>
+      <article class="svc">
+        <span class="num">02</span>
+        <h3>Leasing &amp; Sale Marketing</h3>
+        <p>Positioning and marketing for owners who want their space in front of the right tenants and buyers &mdash; not just posted to a listing service.</p>
+      </article>
+      <article class="svc">
+        <span class="num">03</span>
+        <h3>Investment Sales</h3>
+        <p>Owner-user and investment property sales, from a single building to a multi-building portfolio, with the underwriting to back the pricing.</p>
+      </article>
+      <article class="svc">
+        <span class="num">04</span>
+        <h3>Land &amp; Development</h3>
+        <p>Urban infill land sales across Boulder and Denver for student housing, multifamily, and mixed-use development.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROPERTIES ===================== -->
+<section class="sec" id="properties" aria-labelledby="prop-h">
+  <div class="wrap">
+    <div class="prop-head rv">
+      <div>
+        <p class="eyebrow">Available now</p>
+        <h2 class="big" id="prop-h" style="max-width:14ch">Space on the market.</h2>
+      </div>
+      <div class="prop-actions">
+        <a class="btn btn-dark" href="#contact">Ask about a property</a>
+        <div class="rail-nav">
+          <button class="arw-lt" id="pprev" aria-label="Scroll properties left" disabled>
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M14 8H2M7 3L2 8l5 5"/></svg>
+          </button>
+          <button class="arw-lt" id="pnext" aria-label="Scroll properties right">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rv">
+    <div class="wrap">
+      <div class="rail" id="rail" tabindex="0" role="region" aria-label="Available properties, scrollable">
+        <a class="card" href="#contact" data-property="630 15th Avenue" data-detail="Office, multi-tenant — for lease">
+          <div class="ph" style="--sk:#6A6F71"><img src="img/prop-1.webp" width="320" height="240" alt="630 15th Avenue office building" loading="lazy"></div>
+          <div class="card-meta">
+            <div>
+              <h3>630 15th Avenue <svg viewBox="0 0 16 16" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></h3>
+              <p class="type">Office &middot; Multi-tenant</p>
+            </div>
+            <span class="tag">For Lease</span>
+          </div>
+        </a>
+        <a class="card" href="#contact" data-property="2790 Valmont Road" data-detail="Creative office, Boulder — for lease">
+          <div class="ph" style="--sk:#7A7F7A"><img src="img/prop-2.webp" width="320" height="240" alt="2790 Valmont Road creative office building" loading="lazy"></div>
+          <div class="card-meta">
+            <div>
+              <h3>2790 Valmont Road <svg viewBox="0 0 16 16" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></h3>
+              <p class="type">Creative Office &middot; Boulder</p>
+            </div>
+            <span class="tag">For Lease</span>
+          </div>
+        </a>
+        <a class="card" href="#contact" data-property="7225 Lowell Blvd" data-detail="Retail / showroom — for sale">
+          <div class="ph" style="--sk:#888A89"><img src="img/prop-3.webp" width="320" height="240" alt="7225 Lowell Boulevard retail and showroom building" loading="lazy"></div>
+          <div class="card-meta">
+            <div>
+              <h3>7225 Lowell Blvd <svg viewBox="0 0 16 16" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></h3>
+              <p class="type">Retail &middot; Showroom</p>
+            </div>
+            <span class="tag">For Sale</span>
+          </div>
+        </a>
+      </div>
+      <div class="rail-bar" aria-hidden="true"><i id="railbar"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEAM ===================== -->
+<section class="sec team-band" id="team" aria-labelledby="team-h">
+  <div class="wrap">
+    <div class="rv" style="max-width:44ch;margin-bottom:clamp(40px,5vw,64px)">
+      <p class="eyebrow">The team</p>
+      <h2 class="big" id="team-h">Who you'll actually be working with.</h2>
+    </div>
+
+    <div class="team-grid">
+      <article class="person rv">
+        <div class="ph" style="--sk:#95796B"><img src="img/team-paul.webp" width="760" height="950" alt="Paul Whiteside, Managing Broker at NewOption Partners" loading="lazy"></div>
+        <div class="person-body">
+          <h3>Paul Whiteside</h3>
+          <p class="role">Managing Broker</p>
+          <p>Forty years in commercial real estate, built on major tenant representation assignments &mdash; Intrado (300,000 SF), Bright Horizons, Kahuna Ventures, Ski Magazine, PopSockets &mdash; and significant office and portfolio sales, including Boulder's 19-building Flatiron Business Park.</p>
+          <p>Since the pandemic he has focused on urban infill land in Boulder and Denver, including the sales underlying the redevelopment of Williams Village and Basemar Shopping Center.</p>
+          <div class="bio-more" id="bio-paul">
+            <p>Over the years Paul has built strong relationships with tenants, landlords, landowners, national developers including Landmark Properties and Core Spaces, lenders, and investment banking professionals across the country. Combined with deep local market knowledge, those relationships let him deliver results on either side of a transaction.</p>
+            <p>He has served on several local boards, primarily in animal welfare &mdash; including the Boulder Valley Humane Society and Greenwood Wildlife Rehabilitation. He holds a BS from the University of Colorado Boulder. Go Buffs.</p>
+          </div>
+          <button class="bio-toggle" aria-expanded="false" aria-controls="bio-paul">
+            <span>Read full bio</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg>
+          </button>
+          <div class="person-links">
+            <a href="mailto:info@newoptionpartners.com">
+              <svg viewBox="0 0 16 16" fill="none" stroke-width="1.4" aria-hidden="true"><rect x="1.5" y="3.5" width="13" height="9" rx="1"/><path d="M1.5 4.5L8 9l6.5-4.5"/></svg>
+              Email Paul</a>
+            <a href="tel:+13039981100">
+              <svg viewBox="0 0 16 16" fill="none" stroke-width="1.4" aria-hidden="true"><path d="M4 2.5h2l1 3-1.5 1a8 8 0 004 4l1-1.5 3 1v2c0 .6-.4 1-1 1A11.5 11.5 0 013 4c0-.6.4-1.5 1-1.5z"/></svg>
+              303-998-1100</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="person rv">
+        <div class="ph" style="--sk:#5D5856"><img src="img/team-aaron.webp" width="760" height="950" alt="Aaron Evans, Broker Associate at NewOption Partners" loading="lazy"></div>
+        <div class="person-body">
+          <h3>Aaron Evans</h3>
+          <p class="role">Broker Associate</p>
+          <p>A commercial broker with NewOption since 2002, Aaron has advised everyone from tech startups to established law firms on office space, and industrial users on warehouse requirements.</p>
+          <p>He is also an investor and asset manager for several office and multifamily properties &mdash; first-hand experience that lets him negotiate while genuinely understanding both sides' needs and psychology.</p>
+          <div class="bio-more" id="bio-aaron">
+            <p>His work spans tenant representation for leasing, owner-user buyers and sellers, and marketing investment and owner-occupied buildings for sale. The goal on every assignment is the same: an informed, targeted search that carries straight through negotiation and acquisition.</p>
+            <p>Aaron holds a bachelor's degree in Biochemistry from the University of Colorado.</p>
+          </div>
+          <button class="bio-toggle" aria-expanded="false" aria-controls="bio-aaron">
+            <span>Read full bio</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg>
+          </button>
+          <div class="person-links">
+            <a href="mailto:info@newoptionpartners.com">
+              <svg viewBox="0 0 16 16" fill="none" stroke-width="1.4" aria-hidden="true"><rect x="1.5" y="3.5" width="13" height="9" rx="1"/><path d="M1.5 4.5L8 9l6.5-4.5"/></svg>
+              Email Aaron</a>
+            <a href="tel:+13039981100">
+              <svg viewBox="0 0 16 16" fill="none" stroke-width="1.4" aria-hidden="true"><path d="M4 2.5h2l1 3-1.5 1a8 8 0 004 4l1-1.5 3 1v2c0 .6-.4 1-1 1A11.5 11.5 0 013 4c0-.6.4-1.5 1-1.5z"/></svg>
+              303-998-1100</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="sec contact-band" id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="rv">
+        <p class="eyebrow on-dark">Contact</p>
+        <h2 class="big" id="contact-h" style="max-width:16ch">Let's talk about your space.</h2>
+        <p class="lede" style="margin:24px 0 40px;max-width:46ch">General market questions or a live project &mdash; either one. We'll get back to you the same day.</p>
+
+        <form id="cform" novalidate>
+          <div class="frow">
+            <div class="field">
+              <label for="fn">First name <span aria-hidden="true">*</span><span class="sr">(required)</span></label>
+              <input id="fn" name="first" type="text" autocomplete="given-name" required placeholder="Jane">
+            </div>
+            <div class="field">
+              <label for="ln">Last name</label>
+              <input id="ln" name="last" type="text" autocomplete="family-name" placeholder="Doe">
+            </div>
+          </div>
+          <div class="frow">
+            <div class="field">
+              <label for="em">Email <span aria-hidden="true">*</span><span class="sr">(required)</span></label>
+              <input id="em" name="email" type="email" autocomplete="email" required placeholder="jane@company.com">
+            </div>
+            <div class="field">
+              <label for="ph">Phone</label>
+              <input id="ph" name="phone" type="tel" autocomplete="tel" placeholder="303-000-0000">
+            </div>
+          </div>
+          <div class="field">
+            <label for="ms">How can we help?</label>
+            <textarea id="ms" name="message" placeholder="Tell us a bit about the requirement, timing, and target submarket."></textarea>
+          </div>
+          <label class="hp" aria-hidden="true">Leave this field empty<input type="text" name="company_website" tabindex="-1" autocomplete="off"></label>
+          <button class="btn btn-primary" type="submit" id="submit" style="margin-top:12px">
+            <span id="sublabel">Send message</span>
+            <svg id="subicon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+          </button>
+          <div class="form-msg" id="fmsg" role="alert" aria-live="assertive"></div>
+          <p class="form-note">Prefer to skip the form? Call <a href="tel:+13039981100">303-998-1100</a> or email <a href="mailto:info@newoptionpartners.com">info@newoptionpartners.com</a>.</p>
+        </form>
+
+        <div class="sent" id="sent" role="status">
+          <div class="tick"><svg viewBox="0 0 20 20" fill="none" stroke-width="1.8" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg></div>
+          <h3>Message sent.</h3>
+          <p>Thanks for reaching out &mdash; we'll get back to you the same day. If it's urgent, call 303-998-1100.</p>
+        </div>
+      </div>
+
+      <div class="rv">
+        <div class="info">
+          <a href="tel:+13039981100">
+            <span class="k">Phone</span>
+            <span class="v">303-998-1100</span>
+          </a>
+          <a href="mailto:info@newoptionpartners.com">
+            <span class="k">Email</span>
+            <span class="v">info@newoptionpartners.com</span>
+          </a>
+          <a href="https://maps.here.com/?map=40.0175384,-105.2823651,17" target="_blank" rel="noopener">
+            <span class="k">Office</span>
+            <span class="v">1007 Pearl Street, Suite 290<small>Boulder, CO 80302</small></span>
+          </a>
+        </div>
+
+        <div class="map">
+          <div class="map-canvas" id="mapCanvas" aria-hidden="true"></div>
+          <div class="map-fb" id="mapFallback">
+            <span class="grid"></span>
+            <span class="pin"><span></span></span>
+            <b>1007 Pearl Street, Suite 290</b>
+            <em>Boulder, CO 80302 &mdash; on the Pearl Street Mall</em>
+            <a href="https://maps.here.com/?map=40.0175384,-105.2823651,17" target="_blank" rel="noopener">Open in HERE Maps &rarr;</a>
+          </div>
+        </div>
+        <p class="map-cap">Two blocks west of the Pearl Street Mall's 11th Street entrance. <a href="https://maps.here.com/?map=40.0175384,-105.2823651,17" target="_blank" rel="noopener">Directions &rarr;</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <img src="img/logo-light.png" alt="NewOption Partners" width="802" height="134">
+    <nav class="ftr-nav" aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#services">What We Do</a>
+      <a href="#properties">Properties</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <span>&copy; <span id="yr">2026</span> NewOption Partners, LLC</span>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   NewOption Partners — site behaviour
+   HERE Maps: set HERE_API_KEY below (free key at developer.here.com).
+   Restrict the key to your production domain in the HERE console.
+   Until a key is set, the map area shows the styled address panel.
+   ============================================================ */
+var HERE_API_KEY = "hitUcQ4JMK5Enon9p8kmror_IXMsZDtFHVvBIgeNrJI";
+var OFFICE = { lat: 40.0175384, lng: -105.2823651 };
+
+(function(){
+  var d=document, reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- image skeletons ---------- */
+  function settle(img){
+    var w=img.closest('.ph'); if(w) w.classList.add('is-loaded');
+  }
+  d.querySelectorAll('.ph>img').forEach(function(img){
+    if(img.complete && img.naturalWidth>0){ settle(img); return; }
+    img.addEventListener('load',function(){settle(img)},{once:true});
+    img.addEventListener('error',function(){settle(img)},{once:true});
+  });
+
+  /* ---------- header: solid state + scroll progress ---------- */
+  var hdr=d.getElementById('hdr'), hero=d.getElementById('top'), prog=d.getElementById('prog'), ticking=false;
+  function onScroll(){
+    if(ticking) return; ticking=true;
+    requestAnimationFrame(function(){
+      var y=window.scrollY;
+      hdr.classList.toggle('solid', y > (hero?hero.offsetHeight-90:200));
+      var max=d.body.scrollHeight-window.innerHeight;
+      prog.style.transform='scaleX('+(max>0?Math.min(1,y/max):0)+')';
+      ticking=false;
+    });
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll); onScroll();
+
+  /* ---------- mobile nav ---------- */
+  var burger=d.getElementById('burger'), mnav=d.getElementById('mnav');
+  function setMenu(open){
+    mnav.classList.toggle('open',open);
+    burger.setAttribute('aria-expanded',open?'true':'false');
+    burger.setAttribute('aria-label',open?'Close menu':'Open menu');
+    d.body.style.overflow=open?'hidden':'';
+    /* header keeps whatever state the scroll position gave it, so the
+       wordmark and the burger/X never change colour on open */
+  }
+  burger.addEventListener('click',function(){ setMenu(!mnav.classList.contains('open')); });
+  mnav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){ setMenu(false); }); });
+  d.addEventListener('keydown',function(e){ if(e.key==='Escape'&&mnav.classList.contains('open')) setMenu(false); });
+
+  /* ---------- hero carousel ---------- */
+  var slides=[].slice.call(d.querySelectorAll('.slide')),
+      dots=d.getElementById('dots'), cnum=d.getElementById('cnum'), i=0, timer=null, DUR=6000;
+
+  slides.forEach(function(_,n){
+    var b=d.createElement('button');
+    b.className='dot'+(n===0?' on':''); b.innerHTML='<i></i>';
+    b.setAttribute('aria-label','Show image '+(n+1)+' of '+slides.length);
+    if(n===0) b.setAttribute('aria-current','true');
+    b.addEventListener('click',function(){go(n)});
+    dots.appendChild(b);
+  });
+  var dotEls=[].slice.call(dots.children);
+
+  function go(n){
+    if(n===i) return;
+    slides[i].classList.remove('on');
+    dotEls[i].classList.remove('on'); dotEls[i].removeAttribute('aria-current');
+    i=(n+slides.length)%slides.length;
+    slides[i].classList.add('on');
+    var f=dotEls[i].querySelector('i');
+    f.style.transition='none'; f.style.right='100%'; void f.offsetWidth; f.style.transition='';
+    dotEls[i].classList.add('on'); dotEls[i].setAttribute('aria-current','true');
+    cnum.textContent=String(i+1).padStart(2,'0');
+    restart();
+  }
+  function next(){go(i+1)} function prev(){go(i-1)}
+  function restart(){ if(reduce) return; clearInterval(timer); timer=setInterval(next,DUR); }
+
+  d.getElementById('next').addEventListener('click',next);
+  d.getElementById('prev').addEventListener('click',prev);
+  d.addEventListener('keydown',function(e){
+    if(mnav.classList.contains('open')) return;
+    if(e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
+    if(e.key==='ArrowRight')next(); if(e.key==='ArrowLeft')prev();
+  });
+
+  var sx=null;
+  hero.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+  hero.addEventListener('touchend',function(e){
+    if(sx===null)return; var dx=e.changedTouches[0].clientX-sx;
+    if(Math.abs(dx)>50){ dx<0?next():prev(); } sx=null;
+  },{passive:true});
+
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(es){
+      es.forEach(function(en){ en.isIntersecting?restart():clearInterval(timer); });
+    },{threshold:.15}).observe(hero);
+  }
+  if(!reduce){ restart(); }
+  d.addEventListener('visibilitychange',function(){ d.hidden?clearInterval(timer):restart(); });
+
+  /* ---------- properties rail ---------- */
+  var rail=d.getElementById('rail'), pp=d.getElementById('pprev'), pn=d.getElementById('pnext'), rbar=d.getElementById('railbar');
+  function step(){ var c=rail.querySelector('.card'); return c?c.offsetWidth+24:320; }
+  pn.addEventListener('click',function(){rail.scrollBy({left:step(),behavior:'smooth'})});
+  pp.addEventListener('click',function(){rail.scrollBy({left:-step(),behavior:'smooth'})});
+  function railState(){
+    var maxS=rail.scrollWidth-rail.clientWidth;
+    pp.disabled = rail.scrollLeft<8;
+    pn.disabled = rail.scrollLeft >= maxS-8;
+    var vis=Math.min(1,rail.clientWidth/rail.scrollWidth);
+    rbar.style.width=(vis*100)+'%';
+    rbar.style.transform='translateX('+(maxS>0?(rail.scrollLeft/maxS)*((1/vis)-1)*100:0)+'%)';
+  }
+  rail.addEventListener('scroll',railState,{passive:true});
+  window.addEventListener('resize',railState); railState();
+
+  /* ---------- bios ---------- */
+  d.querySelectorAll('.bio-toggle').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=d.getElementById(b.getAttribute('aria-controls'));
+      var open=t.classList.toggle('open');
+      b.setAttribute('aria-expanded',open?'true':'false');
+      b.querySelector('span').textContent=open?'Show less':'Read full bio';
+    });
+  });
+
+  /* ---------- reveal on scroll ---------- */
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    },{threshold:.12,rootMargin:'0px 0px -60px'});
+    d.querySelectorAll('.rv').forEach(function(el,n){ el.style.transitionDelay=(n%3*70)+'ms'; io.observe(el); });
+  } else {
+    d.querySelectorAll('.rv').forEach(function(el){el.classList.add('in')});
+  }
+
+  /* ---------- scrollspy ---------- */
+  var links=[].slice.call(d.querySelectorAll('.nav a'));
+  var targets=links.map(function(a){ return d.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if('IntersectionObserver' in window && targets.length){
+    var spy=new IntersectionObserver(function(es){
+      es.forEach(function(en){
+        if(!en.isIntersecting) return;
+        links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('href')==='#'+en.target.id); });
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    targets.forEach(function(t){spy.observe(t)});
+  }
+
+  /* ---------- HERE map ---------- */
+  var fb=d.getElementById('mapFallback');
+  function loadScript(src){
+    return new Promise(function(res,rej){
+      var s=d.createElement('script'); s.src=src; s.async=false;
+      s.onload=res; s.onerror=function(){rej(new Error('failed '+src))};
+      d.head.appendChild(s);
+    });
+  }
+  function initHere(){
+    var base='https://js.api.here.com/v3/3.2/';
+    var css=d.createElement('link'); css.rel='stylesheet'; css.href=base+'mapsjs-ui.css'; d.head.appendChild(css);
+    return loadScript(base+'mapsjs-core.js')
+      .then(function(){ return loadScript(base+'mapsjs-service.js'); })
+      .then(function(){ return loadScript(base+'mapsjs-mapevents.js'); })
+      .then(function(){ return loadScript(base+'mapsjs-ui.js'); })
+      .then(function(){
+        var platform=new H.service.Platform({ apikey: HERE_API_KEY });
+        var layers=platform.createDefaultLayers();
+        var map=new H.Map(
+          d.getElementById('mapCanvas'),
+          layers.vector.normal.map,
+          { zoom:16, center:OFFICE, pixelRatio: window.devicePixelRatio||1 }
+        );
+        new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+        var ui=H.ui.UI.createDefault(map, layers);
+        ui.getControl('mapsettings').setVisibility(false);
+        ui.getControl('scalebar').setVisibility(false);
+
+        var svg='<svg xmlns="http://www.w3.org/2000/svg" width="34" height="44" viewBox="0 0 34 44">'+
+          '<path d="M17 43C17 43 32 26.5 32 17A15 15 0 1 0 2 17c0 9.5 15 26 15 26Z" fill="#B08240" stroke="#0E1D26" stroke-width="2"/>'+
+          '<circle cx="17" cy="17" r="5.5" fill="#F7F6F3"/></svg>';
+        map.addObject(new H.map.Marker(OFFICE,{icon:new H.map.Icon(svg,{anchor:{x:17,y:44}})}));
+
+        window.addEventListener('resize',function(){ map.getViewPort().resize(); });
+        confirmPainted();
+      });
+  }
+
+  /* Only swap the address panel for the map once tiles have actually arrived
+     and a canvas has real dimensions. A silently blank map is worse than the
+     panel, so if nothing paints within 8s we put the panel back. */
+  function confirmPainted(){
+    var started=Date.now(), tile=false, po=null;
+    try{
+      po=new PerformanceObserver(function(list){
+        list.getEntries().forEach(function(e){ if(/hereapi\.com/.test(e.name)) tile=true; });
+      });
+      po.observe({type:'resource',buffered:true});
+    }catch(_){ tile=true; }
+    (function check(){
+      var c=d.querySelector('#mapCanvas canvas');
+      if(c && c.width>0 && tile){ if(po)po.disconnect(); fb.classList.add('gone'); return; }
+      if(Date.now()-started>8000){
+        if(po)po.disconnect();
+        if(window.console) console.warn('HERE map did not render — showing the address panel instead.');
+        fb.classList.remove('gone'); return;
+      }
+      setTimeout(check,250);
+    })();
+  }
+  function startMap(){
+    if(!HERE_API_KEY){ return; }            /* no key yet — keep the address panel */
+    initHere().catch(function(err){
+      if(window.console) console.warn('HERE map unavailable:',err.message);
+      fb.classList.remove('gone');
+    });
+  }
+  if('IntersectionObserver' in window){
+    var mo=new IntersectionObserver(function(es){
+      if(es[0].isIntersecting){ mo.disconnect(); startMap(); }
+    },{rootMargin:'200px'});
+    mo.observe(d.querySelector('.map'));
+  } else { startMap(); }
+
+  /* ---------- property card → prefills the contact message ---------- */
+  d.querySelectorAll('.card[data-property]').forEach(function(card){
+    card.addEventListener('click',function(e){
+      var ms=d.getElementById('ms'); if(!ms) return;
+      e.preventDefault();
+
+      /* if a message was already sent, bring the form back */
+      var formEl=d.getElementById('cform'), sentEl=d.getElementById('sent');
+      if(sentEl.classList.contains('show')){ sentEl.classList.remove('show'); formEl.style.display=''; }
+
+      var name=card.getAttribute('data-property'),
+          detail=card.getAttribute('data-detail')||'',
+          line='I\u2019d like more information about '+name+(detail?' ('+detail+')':'')+'.';
+
+      if(ms.value.indexOf(name)===-1){
+        var cur=ms.value.replace(/\s+$/,'');
+        ms.value = cur ? cur+'\n\n'+line+' ' : line+' ';
+      }
+
+      d.getElementById('contact').scrollIntoView({behavior:reduce?'auto':'smooth'});
+      setTimeout(function(){
+        try{ ms.focus({preventScroll:true}); }catch(_){ ms.focus(); }
+        ms.setSelectionRange(ms.value.length, ms.value.length);
+      }, reduce?0:650);
+    });
+  });
+
+  /* ---------- contact form → /api/contact (Resend) ---------- */
+  var f=d.getElementById('cform'), msg=d.getElementById('fmsg'),
+      sub=d.getElementById('submit'), sublabel=d.getElementById('sublabel'),
+      subicon=d.getElementById('subicon'), sentPanel=d.getElementById('sent');
+
+  function fail(text,el){
+    msg.textContent=text; msg.classList.add('show','err');
+    if(el){ el.setAttribute('aria-invalid','true'); el.focus(); }
+  }
+  function clearErrors(){
+    msg.classList.remove('show','err'); msg.textContent='';
+    f.querySelectorAll('[aria-invalid]').forEach(function(el){el.removeAttribute('aria-invalid')});
+  }
+  function busy(on){
+    sub.disabled=on;
+    sublabel.textContent=on?'Sending…':'Send message';
+    subicon.style.display=on?'none':'';
+    var s=d.getElementById('spinner');
+    if(on&&!s){ var i2=d.createElement('span'); i2.className='spin'; i2.id='spinner'; sub.appendChild(i2); }
+    if(!on&&s){ s.remove(); }
+  }
+
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    clearErrors();
+    var fn=d.getElementById('fn'), em=d.getElementById('em');
+    if(!fn.value.trim()) return fail('Please add your first name so we know who we’re talking to.',fn);
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em.value.trim())) return fail('That email address doesn’t look right — mind checking it?',em);
+
+    var payload={};
+    new FormData(f).forEach(function(v,k){ payload[k]=v; });
+    busy(true);
+
+    fetch('/api/contact',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(payload)
+    })
+    .then(function(r){ return r.json().then(function(j){ return {ok:r.ok,body:j}; }); })
+    .then(function(res){
+      busy(false);
+      if(!res.ok) throw new Error(res.body && res.body.error || 'Something went wrong.');
+      f.style.display='none';
+      sentPanel.classList.add('show');
+      sentPanel.scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'});
+    })
+    .catch(function(err){
+      busy(false);
+      fail(err.message+' You can also reach us at 303-998-1100 or info@newoptionpartners.com.');
+    });
+  });
+
+  d.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>

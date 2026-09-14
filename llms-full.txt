@@ -1,6 +1,6 @@
 # NewOption Partners — full site content
 
-> Boutique commercial real estate brokerage serving Boulder County and the northwest Denver metro, Colorado.
+> Independent commercial real estate brokerage serving Boulder County and the northwest Denver metro, Colorado.
 > Source: https://www.newoptionpartners.com/
 > This file contains the complete text of the website in one document, for language models and answer engines.
 
@@ -24,7 +24,7 @@
 
 ## Positioning
 
-Boutique commercial real estate, handled personally.
+Commercial real estate, handled by the principals.
 
 Two senior brokers, no handoffs. The person who walks your first tour is the person who negotiates your final terms.
 
@@ -34,17 +34,15 @@ Two senior brokers, no handoffs. The person who walks your first tour is the per
 
 High-touch brokerage, without the layers.
 
-NewOption Partners is a boutique commercial real estate firm serving Boulder County and the northwest Denver metro. We are small on purpose. Every assignment gets senior-level attention from start to finish — no junior handoff, no account team you never meet.
+NewOption Partners is an independent commercial real estate firm serving Boulder County and the northwest Denver metro. We are small on purpose. Every assignment gets senior-level attention from start to finish — no junior handoff, no account team you never meet.
 
 Our clients run from startups signing their first lease to Fortune 500 tenants and institutional investors. We put real time into each project and build deal terms around what your organization actually needs, on your timeline.
 
-**Local since day one.** Four decades of Front Range relationships — tenants, landlords, landowners, developers, lenders.
+**Local since day one.** Relationships across the Front Range — tenants, landlords, landowners, developers, and lenders.
 
 Figures the firm cites:
 
 - 40+ years of Front Range commercial market experience
-- 300,000 square feet in a single tenant representation assignment
-- 19 buildings in the Flatiron Business Park portfolio sale
 
 ---
 
@@ -67,18 +65,6 @@ Owner-user and investment property sales, from a single building to a multi-buil
 ### 4. Land & Development
 
 Urban infill land sales across Boulder and Denver for student housing, multifamily, and mixed-use development.
-
----
-
-## Available properties
-
-Space on the market. Availability changes — call 303-998-1100 for current status, square footage, and pricing.
-
-| Property | Type | Status |
-| --- | --- | --- |
-| 630 15th Avenue | Office, multi-tenant | For lease |
-| 2790 Valmont Road, Boulder | Creative office | For lease |
-| 7225 Lowell Blvd | Retail, showroom | For sale |
 
 ---
 
@@ -114,13 +100,12 @@ Contact: 303-998-1100 · info@newoptionpartners.com
 
 ## Contact
 
-Let's talk about your space. General market questions or a live project — either one. We'll get back to you the same day.
+Let's talk about your space. General market questions or a live project — either one. Call, or send a note and we'll get back to you the same day.
 
 - **Phone:** 303-998-1100
 - **Email:** info@newoptionpartners.com
 - **Office:** 1007 Pearl Street, Suite 290, Boulder, CO 80302
 - **Location note:** Two blocks west of the Pearl Street Mall's 11th Street entrance.
-- **Enquiry form:** https://www.newoptionpartners.com/#contact
 
 ---
 
@@ -139,8 +124,8 @@ One of the two principals, Paul Whiteside (Managing Broker) or Aaron Evans (Brok
 Both. Tenant and buyer representation, and lease and sale marketing on behalf of owners.
 
 **How do I get in touch?**
-Call 303-998-1100, email info@newoptionpartners.com, or use the form at https://www.newoptionpartners.com/#contact.
+Call 303-998-1100 or email info@newoptionpartners.com.
 
 ---
 
-_Content owner: NewOption Partners, LLC. Please cite as "NewOption Partners (newoptionpartners.com)". Contact details and property availability should be verified by phone before being relied on._
+_Content owner: NewOption Partners, LLC. Please cite as "NewOption Partners (newoptionpartners.com)". Contact details should be verified by phone before being relied on._
