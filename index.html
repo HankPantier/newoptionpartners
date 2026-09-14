@@ -294,6 +294,39 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
 .person-links a:hover{color:var(--brass-hi)}
 .person-links svg{width:13px;height:13px;stroke:currentColor;flex:none}
 
+/* ---------- 05 · past projects (logo marquee) ---------- */
+.clients-band{background:var(--ink)}
+.clients-head{max-width:46ch;margin-bottom:clamp(36px,4.5vw,56px)}
+.marquee{
+  position:relative;overflow:hidden;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:clamp(30px,4vw,46px) 0;
+  /* Fade at both edges rather than clipping a wordmark mid-letter. Now that the rail
+     is full-bleed, a % fade would be ~27px on a phone and ~180px on a 2560 display —
+     clamp keeps it visually consistent at every width. */
+  --fade:clamp(28px,7vw,140px);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 var(--fade),#000 calc(100% - var(--fade)),transparent 100%);
+          mask-image:linear-gradient(90deg,transparent 0,#000 var(--fade),#000 calc(100% - var(--fade)),transparent 100%);
+}
+.marquee-track{display:flex;width:max-content;animation:marq 48s linear infinite}
+/* pause for anyone reading it, by pointer or by keyboard */
+.marquee:hover .marquee-track,.marquee:focus-within .marquee-track{animation-play-state:paused}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.logos{display:flex;align-items:center;list-style:none;margin:0;padding:0}
+/* spacing lives in each item's padding, never in `gap` — two identical copies must
+   measure exactly equal for translateX(-50%) to wrap without a visible jump */
+.logos li{flex:none;padding:0 clamp(26px,3.4vw,52px);display:flex;align-items:center}
+.logos img{
+  height:clamp(21px,2.3vw,29px);width:auto;
+  /* forces any artwork — dark, light or full colour — to a flat knockout white */
+  filter:brightness(0) invert(1);
+  opacity:.58;transition:opacity .3s var(--ease);
+}
+.logos li:hover img{opacity:1}
+/* escape hatch: artwork that must keep its own colour */
+.logos img.as-is{filter:none}
+.clients-note{font-size:12.5px;color:var(--body-2);margin:clamp(22px,2.6vw,32px) 0 0}
+
 /* ---------- 05 · contact ---------- */
 .contact-band{background:var(--ink-3)}
 .contact-head{display:grid;grid-template-columns:1fr .8fr;gap:clamp(24px,5vw,72px);align-items:end}
@@ -391,6 +424,12 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
   *{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .slide img{transform:none}
   .ph::after{display:none}
+  /* the global rule above would whip the marquee through its loop in 0.01ms —
+     stop it outright and let the logos sit as a centred, wrapping row instead */
+  .marquee{overflow:visible;-webkit-mask-image:none;mask-image:none}
+  .marquee-track{animation:none!important;width:auto;justify-content:center}
+  .marquee-track .logos:last-child{display:none}
+  .logos{flex-wrap:wrap;justify-content:center;row-gap:clamp(20px,3vw,30px)}
 }
 </style>
 
@@ -735,7 +774,48 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
   </div>
 </section>
 
-<!-- ===================== 05 · CONTACT ===================== -->
+<!-- ===================== 05 · PAST PROJECTS ===================== -->
+<section class="sec clients-band" id="clients" aria-labelledby="clients-h">
+  <div class="wrap">
+    <div class="clients-head rv">
+      <p class="eyebrow">Selected clients</p>
+      <h2 class="big" id="clients-h">Past Projects</h2>
+    </div>
+  </div>
+
+  <!-- full-bleed: deliberately outside .wrap so the rail spans the viewport at every width -->
+  <div class="marquee rv" role="region" aria-label="Past project clients">
+    <div class="marquee-track">
+        <ul class="logos">
+        <li><img src="img/clients/acme.svg" alt="Acme" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/northwind.svg" alt="Northwind" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/vertex.svg" alt="Vertex" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/orbital.svg" alt="Orbital" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/helix.svg" alt="Helix" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/meridian.svg" alt="Meridian" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/cascade.svg" alt="Cascade" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/atlas.svg" alt="Atlas" width="180" height="40" loading="lazy"></li>
+        </ul>
+        <!-- second copy purely for the seamless wrap — hidden from assistive tech -->
+        <ul class="logos" aria-hidden="true">
+        <li><img src="img/clients/acme.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/northwind.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/vertex.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/orbital.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/helix.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/meridian.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/cascade.svg" alt="" width="180" height="40" loading="lazy"></li>
+        <li><img src="img/clients/atlas.svg" alt="" width="180" height="40" loading="lazy"></li>
+        </ul>
+      </div>
+  </div>
+
+  <div class="wrap">
+    <p class="clients-note">Placeholder marks &mdash; replace with real client logos in <code>img/clients/</code>.</p>
+  </div>
+</section>
+
+<!-- ===================== 06 · CONTACT ===================== -->
 <section class="sec contact-band" id="contact" aria-labelledby="contact-h">
   <div class="wrap">
     <div class="contact-head rv">
