@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.newoptionpartners.com/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.newoptionpartners.com/og-cover.jpg</image:loc>
-      <image:title>NewOption Partners — independent commercial real estate, Boulder County</image:title>
+      <image:loc>https://www.newoptionpartners.com/og-card.jpg</image:loc>
+      <image:title>NewOption Partners — Commercial Real Estate, handled by seasoned professionals</image:title>
     </image:image>
   </url>
 </urlset>
