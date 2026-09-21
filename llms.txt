@@ -1,6 +1,6 @@
 # NewOption Partners
 
-> Independent commercial real estate brokerage serving Boulder County and the northwest Denver metro, Colorado. Two senior brokers handle every assignment personally — tenant and buyer representation, lease and sale marketing, investment sales, and land sales and development consulting.
+> Independent commercial real estate brokerage serving Boulder County and the northwest Denver metro, Colorado. Two senior brokers handle every assignment personally — office and industrial tenant and buyer representation, lease and sale marketing, investment sales, and land sales and development consulting.
 
 NewOption Partners, LLC is a small, principal-led commercial real estate firm based on Pearl Street in downtown Boulder, Colorado, at the west end of the Pearl Street Mall. Clients range from startups signing a first lease to Fortune 500 tenants and institutional investors. The firm is deliberately small: the broker who runs the first tour is the broker who negotiates the final terms, with no junior handoff.
 
@@ -14,13 +14,13 @@ NewOption Partners, LLC is a small, principal-led commercial real estate firm ba
 - **Email:** info@newoptionpartners.com
 - **Website:** https://www.newoptionpartners.com/
 - **Markets served:** Boulder County and the northwest Denver metro — Boulder, Longmont, Louisville, Lafayette, Superior, Broomfield, Westminster, Arvada, and Denver
-- **Asset types:** office, medical office, industrial, flex, retail, and urban infill land
+- **Asset types:** office, medical office, industrial, warehouse, flex, retail, and urban infill land
 
 ## Services
 
-- [Tenant & Buyer Representation](https://www.newoptionpartners.com/#services): Space searches, site selection, and negotiation for office, industrial, and flex users — lease or purchase.
-- [Leasing & Sale Marketing](https://www.newoptionpartners.com/#services): Positioning and marketing on behalf of owners who want space in front of the right tenants and buyers rather than simply listed.
-- [Investment Sales](https://www.newoptionpartners.com/#services): Owner-user and investment property sales, from a single building to a multi-building portfolio, with supporting underwriting.
+- [Tenant & Buyer Representation](https://www.newoptionpartners.com/#services): Space searches, site selection, and negotiation for office, industrial, warehouse, and flex users — lease or purchase.
+- [Leasing & Sale Marketing](https://www.newoptionpartners.com/#services): Positioning and marketing on behalf of owners who want office or industrial space in front of the right tenants and buyers rather than simply listed.
+- [Investment Sales](https://www.newoptionpartners.com/#services): Owner-user and investment sales of office and industrial property, from a single building to a multi-building portfolio, with supporting underwriting.
 - [Land & Development](https://www.newoptionpartners.com/#services): Urban infill land sales and consulting across Boulder and Denver for student housing, multifamily, and mixed-use development.
 
 ## People
