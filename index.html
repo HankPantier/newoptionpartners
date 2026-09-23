@@ -196,8 +196,6 @@ section[id]{scroll-margin-top:calc(var(--hdr) + 8px)}
   padding:0 var(--pad) clamp(26px,4.5vh,44px);
   display:flex;align-items:center;justify-content:space-between;gap:20px 24px;flex-wrap:wrap;
 }
-.hero-count{font-family:Archivo,Inter,sans-serif;font-size:13px;color:var(--body);letter-spacing:.08em;font-variant-numeric:tabular-nums}
-.hero-count b{color:var(--head);font-weight:600}
 .dots{display:flex;gap:8px;align-items:center}
 .dot{
   width:34px;height:3px;background:rgba(255,255,255,.26);border:0;padding:0;cursor:pointer;
@@ -209,15 +207,6 @@ section[id]{scroll-margin-top:calc(var(--hdr) + 8px)}
 .dot.on{width:58px;background:rgba(255,255,255,.34)}
 .dot i{position:absolute;inset:0 100% 0 0;background:var(--brass-hi);border-radius:3px;transition:right .3s linear}
 .dot.on i{right:0;transition:right 6s linear}
-.arrows{display:flex;gap:8px}
-.arw{
-  width:44px;height:44px;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.06);
-  border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:.28s var(--ease);
-  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
-}
-.arw:hover{background:var(--head);border-color:var(--head)}
-.arw svg{width:15px;height:15px;stroke:var(--head);transition:stroke .28s var(--ease)}
-.arw:hover svg{stroke:var(--ink)}
 
 /* ---------- sections ---------- */
 .sec{padding:clamp(72px,10vw,136px) 0}
@@ -618,18 +607,7 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
   </div>
 
   <div class="hero-foot">
-    <div class="hero-count"><b id="cnum">01</b> &nbsp;/&nbsp; 10</div>
-    <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap">
-      <div class="dots" id="dots" role="tablist" aria-label="Choose image"></div>
-      <div class="arrows">
-        <button class="arw" id="prev" aria-label="Previous image">
-          <svg viewBox="0 0 16 16" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M14 8H2M7 3L2 8l5 5"/></svg>
-        </button>
-        <button class="arw" id="next" aria-label="Next image">
-          <svg viewBox="0 0 16 16" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
-        </button>
-      </div>
-    </div>
+    <div class="dots" id="dots" role="tablist" aria-label="Choose image"></div>
   </div>
 </section>
 
@@ -940,7 +918,7 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
 
   /* ---------- hero carousel ---------- */
   var slides=[].slice.call(d.querySelectorAll('.slide')),
-      dots=d.getElementById('dots'), cnum=d.getElementById('cnum'), i=0, timer=null, DUR=3500;
+      dots=d.getElementById('dots'), i=0, timer=null, DUR=3500;
 
   slides.forEach(function(_,n){
     var b=d.createElement('button');
@@ -961,14 +939,11 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
     var f=dotEls[i].querySelector('i');
     f.style.transition='none'; f.style.right='100%'; void f.offsetWidth; f.style.transition='';
     dotEls[i].classList.add('on'); dotEls[i].setAttribute('aria-current','true');
-    cnum.textContent=String(i+1).padStart(2,'0');
     restart();
   }
   function next(){go(i+1)} function prev(){go(i-1)}
   function restart(){ if(reduce) return; clearInterval(timer); timer=setInterval(next,DUR); }
 
-  d.getElementById('next').addEventListener('click',next);
-  d.getElementById('prev').addEventListener('click',prev);
   d.addEventListener('keydown',function(e){
     if(mnav.classList.contains('open')) return;
     if(e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
