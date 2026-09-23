@@ -179,7 +179,7 @@ section[id]{scroll-margin-top:calc(var(--hdr) + 8px)}
   min-height:min(82svh,820px);
 }
 .slides{position:absolute;inset:0}
-.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.15s var(--ease)}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity .7s var(--ease)}
 .slide.on{opacity:1;z-index:1}
 .slide,.slide .ph{width:100%;height:100%}
 .slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);transition:transform 8s linear,opacity .7s var(--ease)}
@@ -316,13 +316,10 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
 .logos img{
   /* --s balances each mark's visual weight: wide wordmarks run shorter, compact marks taller */
   height:calc(clamp(21px,2.3vw,29px) * var(--s,1));width:auto;
-  /* forces any artwork — dark, light or full colour — to a flat knockout white */
-  filter:brightness(0) invert(1);
-  opacity:.58;transition:opacity .3s var(--ease);
+  /* full-colour artwork: shown as supplied */
+  opacity:.92;transition:opacity .3s var(--ease);
 }
 .logos li:hover img{opacity:1}
-/* escape hatch: artwork that must keep its own colour */
-.logos img.as-is{filter:none}
 .clients-note{font-size:12.5px;color:var(--body-2);margin:clamp(22px,2.6vw,32px) 0 0}
 
 /* ---------- 05 · contact ---------- */
@@ -792,55 +789,55 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
   <div class="marquee rv" role="region" aria-label="Past project clients">
     <div class="marquee-track">
       <ul class="logos">
-        <li><img src="img/clients/holland-hart.png" alt="Holland &amp; Hart" width="961" height="96" style="--s:0.6" loading="lazy"></li>
-        <li><img src="img/clients/kelty.png" alt="Kelty" width="143" height="96" style="--s:1.45" loading="lazy"></li>
-        <li><img src="img/clients/slumberjack.png" alt="Slumberjack" width="234" height="96" style="--s:1.4" loading="lazy"></li>
-        <li><img src="img/clients/cpb.png" alt="Crispin (CP+B)" width="256" height="96" style="--s:1.22" loading="lazy"></li>
-        <li><img src="img/clients/keybank.png" alt="KeyBank" width="519" height="96" style="--s:0.81" loading="lazy"></li>
-        <li><img src="img/clients/kahuna.png" alt="Kahuna" width="516" height="96" style="--s:0.95" loading="lazy"></li>
-        <li><img src="img/clients/intrado.png" alt="Intrado" width="330" height="96" style="--s:1.02" loading="lazy"></li>
-        <li><img src="img/clients/conga.png" alt="Conga" width="344" height="96" style="--s:0.95" loading="lazy"></li>
-        <li><img src="img/clients/yoga-pearl.png" alt="Yoga Pearl" width="149" height="96" style="--s:1.45" loading="lazy"></li>
-        <li><img src="img/clients/crossfit-roots.png" alt="CrossFit Roots" width="250" height="96" style="--s:1.05" loading="lazy"></li>
-        <li><img src="img/clients/popsockets.png" alt="PopSockets" width="950" height="96" style="--s:0.5" loading="lazy"></li>
-        <li><img src="img/clients/bright-horizons.png" alt="Bright Horizons" width="540" height="96" style="--s:1.0" loading="lazy"></li>
-        <li><img src="img/clients/crocs.png" alt="Crocs" width="491" height="96" style="--s:0.76" loading="lazy"></li>
-        <li><img src="img/clients/justins.png" alt="Justin&#8217;s" width="240" height="96" style="--s:1.27" loading="lazy"></li>
-        <li><img src="img/clients/finish-line.png" alt="Finish Line" width="592" height="96" style="--s:0.75" loading="lazy"></li>
-        <li><img src="img/clients/kidrobot.png" alt="Kidrobot" width="362" height="96" style="--s:1.15" loading="lazy"></li>
-        <li><img src="img/clients/roofnest.png" alt="Roofnest" width="1554" height="96" style="--s:0.42" loading="lazy"></li>
-        <li><img src="img/clients/alpine-modern.png" alt="Alpine Modern" width="304" height="96" style="--s:1.35" loading="lazy"></li>
-        <li><img src="img/clients/mammut.png" alt="Mammut" width="113" height="96" style="--s:1.65" loading="lazy"></li>
-        <li><img src="img/clients/noodles.png" alt="Noodles &amp; Company" width="460" height="96" style="--s:0.89" loading="lazy"></li>
-        <li><img src="img/clients/ps-audio.png" alt="PS Audio" width="96" height="96" style="--s:1.2" loading="lazy"></li>
-        <li><img src="img/clients/shipcompliant.png" alt="ShipCompliant" width="1127" height="96" style="--s:0.52" loading="lazy"></li>
-        <li><img src="img/clients/webroot.png" alt="Webroot" width="939" height="96" style="--s:0.56" loading="lazy"></li>
+        <li><img src="img/clients/color/holland-hart.png" alt="Holland &amp; Hart" width="1010" height="96" style="--s:0.6" loading="lazy"></li>
+        <li><img src="img/clients/color/kelty.png" alt="Kelty" width="145" height="96" style="--s:1.45" loading="lazy"></li>
+        <li><img src="img/clients/color/slumberjack.png" alt="Slumberjack" width="242" height="96" style="--s:1.4" loading="lazy"></li>
+        <li><img src="img/clients/color/cpb.png" alt="Crispin (CP+B)" width="265" height="96" style="--s:1.22" loading="lazy"></li>
+        <li><img src="img/clients/color/keybank.png" alt="KeyBank" width="543" height="96" style="--s:0.81" loading="lazy"></li>
+        <li><img src="img/clients/color/kahuna.png" alt="Kahuna" width="433" height="96" style="--s:0.95" loading="lazy"></li>
+        <li><img src="img/clients/color/intrado.png" alt="Intrado" width="344" height="96" style="--s:1.02" loading="lazy"></li>
+        <li><img src="img/clients/color/conga.png" alt="Conga" width="358" height="96" style="--s:0.95" loading="lazy"></li>
+        <li><img src="img/clients/color/yoga-pearl.png" alt="Yoga Pearl" width="152" height="96" style="--s:1.45" loading="lazy"></li>
+        <li><img src="img/clients/color/crossfit-roots.png" alt="CrossFit Roots" width="259" height="96" style="--s:1.05" loading="lazy"></li>
+        <li><img src="img/clients/color/popsockets.png" alt="PopSockets" width="999" height="96" style="--s:0.5" loading="lazy"></li>
+        <li><img src="img/clients/color/bright-horizons.png" alt="Bright Horizons" width="565" height="96" style="--s:1.0" loading="lazy"></li>
+        <li><img src="img/clients/color/crocs.png" alt="Crocs" width="513" height="96" style="--s:0.76" loading="lazy"></li>
+        <li><img src="img/clients/color/justins.png" alt="Justin&#8217;s" width="248" height="96" style="--s:1.27" loading="lazy"></li>
+        <li><img src="img/clients/color/finish-line.png" alt="Finish Line" width="620" height="96" style="--s:0.75" loading="lazy"></li>
+        <li><img src="img/clients/color/kidrobot.png" alt="Kidrobot" width="377" height="96" style="--s:1.15" loading="lazy"></li>
+        <li><img src="img/clients/color/roofnest.png" alt="Roofnest" width="1637" height="96" style="--s:0.42" loading="lazy"></li>
+        <li><img src="img/clients/color/alpine-modern.png" alt="Alpine Modern" width="316" height="96" style="--s:1.35" loading="lazy"></li>
+        <li><img src="img/clients/color/mammut.png" alt="Mammut" width="115" height="96" style="--s:1.65" loading="lazy"></li>
+        <li><img src="img/clients/color/noodles.png" alt="Noodles &amp; Company" width="480" height="96" style="--s:0.89" loading="lazy"></li>
+        <li><img src="img/clients/color/ps-audio.png" alt="PS Audio" width="96" height="96" style="--s:1.2" loading="lazy"></li>
+        <li><img src="img/clients/color/shipcompliant.png" alt="ShipCompliant" width="1186" height="96" style="--s:0.52" loading="lazy"></li>
+        <li><img src="img/clients/color/webroot.png" alt="Webroot" width="988" height="96" style="--s:0.56" loading="lazy"></li>
       </ul>
       <!-- second copy purely for the seamless wrap — hidden from assistive tech -->
       <ul class="logos" aria-hidden="true">
-        <li><img src="img/clients/holland-hart.png" alt="" width="961" height="96" style="--s:0.6" loading="lazy"></li>
-        <li><img src="img/clients/kelty.png" alt="" width="143" height="96" style="--s:1.45" loading="lazy"></li>
-        <li><img src="img/clients/slumberjack.png" alt="" width="234" height="96" style="--s:1.4" loading="lazy"></li>
-        <li><img src="img/clients/cpb.png" alt="" width="256" height="96" style="--s:1.22" loading="lazy"></li>
-        <li><img src="img/clients/keybank.png" alt="" width="519" height="96" style="--s:0.81" loading="lazy"></li>
-        <li><img src="img/clients/kahuna.png" alt="" width="516" height="96" style="--s:0.95" loading="lazy"></li>
-        <li><img src="img/clients/intrado.png" alt="" width="330" height="96" style="--s:1.02" loading="lazy"></li>
-        <li><img src="img/clients/conga.png" alt="" width="344" height="96" style="--s:0.95" loading="lazy"></li>
-        <li><img src="img/clients/yoga-pearl.png" alt="" width="149" height="96" style="--s:1.45" loading="lazy"></li>
-        <li><img src="img/clients/crossfit-roots.png" alt="" width="250" height="96" style="--s:1.05" loading="lazy"></li>
-        <li><img src="img/clients/popsockets.png" alt="" width="950" height="96" style="--s:0.5" loading="lazy"></li>
-        <li><img src="img/clients/bright-horizons.png" alt="" width="540" height="96" style="--s:1.0" loading="lazy"></li>
-        <li><img src="img/clients/crocs.png" alt="" width="491" height="96" style="--s:0.76" loading="lazy"></li>
-        <li><img src="img/clients/justins.png" alt="" width="240" height="96" style="--s:1.27" loading="lazy"></li>
-        <li><img src="img/clients/finish-line.png" alt="" width="592" height="96" style="--s:0.75" loading="lazy"></li>
-        <li><img src="img/clients/kidrobot.png" alt="" width="362" height="96" style="--s:1.15" loading="lazy"></li>
-        <li><img src="img/clients/roofnest.png" alt="" width="1554" height="96" style="--s:0.42" loading="lazy"></li>
-        <li><img src="img/clients/alpine-modern.png" alt="" width="304" height="96" style="--s:1.35" loading="lazy"></li>
-        <li><img src="img/clients/mammut.png" alt="" width="113" height="96" style="--s:1.65" loading="lazy"></li>
-        <li><img src="img/clients/noodles.png" alt="" width="460" height="96" style="--s:0.89" loading="lazy"></li>
-        <li><img src="img/clients/ps-audio.png" alt="" width="96" height="96" style="--s:1.2" loading="lazy"></li>
-        <li><img src="img/clients/shipcompliant.png" alt="" width="1127" height="96" style="--s:0.52" loading="lazy"></li>
-        <li><img src="img/clients/webroot.png" alt="" width="939" height="96" style="--s:0.56" loading="lazy"></li>
+        <li><img src="img/clients/color/holland-hart.png" alt="" width="1010" height="96" style="--s:0.6" loading="lazy"></li>
+        <li><img src="img/clients/color/kelty.png" alt="" width="145" height="96" style="--s:1.45" loading="lazy"></li>
+        <li><img src="img/clients/color/slumberjack.png" alt="" width="242" height="96" style="--s:1.4" loading="lazy"></li>
+        <li><img src="img/clients/color/cpb.png" alt="" width="265" height="96" style="--s:1.22" loading="lazy"></li>
+        <li><img src="img/clients/color/keybank.png" alt="" width="543" height="96" style="--s:0.81" loading="lazy"></li>
+        <li><img src="img/clients/color/kahuna.png" alt="" width="433" height="96" style="--s:0.95" loading="lazy"></li>
+        <li><img src="img/clients/color/intrado.png" alt="" width="344" height="96" style="--s:1.02" loading="lazy"></li>
+        <li><img src="img/clients/color/conga.png" alt="" width="358" height="96" style="--s:0.95" loading="lazy"></li>
+        <li><img src="img/clients/color/yoga-pearl.png" alt="" width="152" height="96" style="--s:1.45" loading="lazy"></li>
+        <li><img src="img/clients/color/crossfit-roots.png" alt="" width="259" height="96" style="--s:1.05" loading="lazy"></li>
+        <li><img src="img/clients/color/popsockets.png" alt="" width="999" height="96" style="--s:0.5" loading="lazy"></li>
+        <li><img src="img/clients/color/bright-horizons.png" alt="" width="565" height="96" style="--s:1.0" loading="lazy"></li>
+        <li><img src="img/clients/color/crocs.png" alt="" width="513" height="96" style="--s:0.76" loading="lazy"></li>
+        <li><img src="img/clients/color/justins.png" alt="" width="248" height="96" style="--s:1.27" loading="lazy"></li>
+        <li><img src="img/clients/color/finish-line.png" alt="" width="620" height="96" style="--s:0.75" loading="lazy"></li>
+        <li><img src="img/clients/color/kidrobot.png" alt="" width="377" height="96" style="--s:1.15" loading="lazy"></li>
+        <li><img src="img/clients/color/roofnest.png" alt="" width="1637" height="96" style="--s:0.42" loading="lazy"></li>
+        <li><img src="img/clients/color/alpine-modern.png" alt="" width="316" height="96" style="--s:1.35" loading="lazy"></li>
+        <li><img src="img/clients/color/mammut.png" alt="" width="115" height="96" style="--s:1.65" loading="lazy"></li>
+        <li><img src="img/clients/color/noodles.png" alt="" width="480" height="96" style="--s:0.89" loading="lazy"></li>
+        <li><img src="img/clients/color/ps-audio.png" alt="" width="96" height="96" style="--s:1.2" loading="lazy"></li>
+        <li><img src="img/clients/color/shipcompliant.png" alt="" width="1186" height="96" style="--s:0.52" loading="lazy"></li>
+        <li><img src="img/clients/color/webroot.png" alt="" width="988" height="96" style="--s:0.56" loading="lazy"></li>
       </ul>
     </div>
   </div>
@@ -943,7 +940,7 @@ h2.big{font-size:clamp(30px,4.3vw,52px);max-width:19ch;letter-spacing:-.03em}
 
   /* ---------- hero carousel ---------- */
   var slides=[].slice.call(d.querySelectorAll('.slide')),
-      dots=d.getElementById('dots'), cnum=d.getElementById('cnum'), i=0, timer=null, DUR=6000;
+      dots=d.getElementById('dots'), cnum=d.getElementById('cnum'), i=0, timer=null, DUR=3500;
 
   slides.forEach(function(_,n){
     var b=d.createElement('button');
